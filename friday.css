@@ -1,0 +1,18 @@
+p{
+    background-color: greenyellow;
+    color: #ff1e7c;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    text-indent: 20cm;
+    word-spacing: 2cm;
+    text-decoration: underline;
+    line-height: 2cm;
+    border: 5px solid royalblue;
+    outline: 3px solid red;
+
+}
+ul{
+    list-style-type:square ;
+    list-style-position: outside;
+}

@@ -1,0 +1,13 @@
+form{
+    background-color: #ff1e7c;
+    margin: 80px;
+    padding: 80px;
+}
+input[type=submit]{
+    background-color: coral;
+}
+body{
+    background-image: url("images/a2.jff");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

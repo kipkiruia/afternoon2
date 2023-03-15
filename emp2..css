@@ -1,0 +1,22 @@
+table{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    border:2px solid black;
+    text-align: center;
+}
+th{
+    background-color: #ff1e7c;
+}
+.heading{
+    color: yellow;
+}
+tr:hover{
+    background-color: greenyellow;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}

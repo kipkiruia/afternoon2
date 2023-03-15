@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>f2</title>
+    <script type="text/javascript">
+        function validate(){
+            var name=document.getElementById("n");
+            var email=document.getElementById("e");
+            var investment=document.getElementById("i");
+            var datejoined=document.getElementById("dj");
+            var active=document.getElementById("a");
+            if(name.value==""||email.value==""||investment.value==""||datejoined.value==""||active.value==""){
+                alert("no blank values allowed");return false;
+            }else {
+                return true;
+            }
+
+
+        }
+
+
+    </script>
+  <link rel="stylesheet" href="f2..css,">
+</head>
+<body>
+
+<form onsubmit="return validate()" action="friday.html">
+    <fieldset>
+  <legend>Customer</legend>
+  <br><br>
+  <label for="n">Name*</label>
+  <input type="text" id="n"><br><br>
+
+  <label for="e">Email*</label>
+  <input type="text" id="e"><br><br>
+
+  <label for="i">Investment</label>
+        <select name="" id="i">
+            <option value="g">goods</option>
+            <option value="s">services</option>
+        </select><br><br>
+
+
+  <label for="dj">Date Joined*</label>
+  <input type="date" id="dj"><br><br>
+
+  <label for="a">active</label>
+  <input type="checkbox" id="a"><br><br>
+
+    
+
+    </fieldset>
+    <br>
+    <input type="submit" value="ok">
+
+
+</form>
+
+</body>
+</html>

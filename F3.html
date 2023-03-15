@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>f3</title>
+  <link rel="stylesheet" href="f3.css">
+    <script type="text/javascript">
+       function validate(){
+           var projectname=document.getElementById("pn");
+           var assignedto=document.getElementById("at");
+           var startdate=document.getElementById("sd");
+           var enddate=document.getElementById("ed");
+           var priority=document.getElementById("p");
+           var description=document.getElementById("d");
+           if (projectname.value==""||assignedto.value==""||startdate.value==""||enddate.value==""||priority.value==""||description.value==""
+           ){
+             alert("no blank values allowed");return false;
+           }else {
+             return true
+           }
+
+        }
+
+    </script>
+</head>
+<body>
+ <h1 style="" "color: black" ><u> Project management</u></h1>
+<form onsubmit=" return validate()" action="friday%202.html">
+  
+
+  <br><br>
+  <label for="pn">Project Name</label>
+  <input type="text" id="pn"><br><br>
+
+  <label for="at">Assigned to</label>
+  <select name="ar ki kip" id="at">
+    <option value="ar ki kip">aron kip kip</option>
+    <option value="v c c">vic c c</option>
+  </select><br><br>
+
+  <label for="sd">Start Date</label>
+  <input type="date" id="sd"><br><br>
+
+  <label for="ed">End Date</label>
+  <input type="date" id="ed"><br><br>
+
+  <label for="p">Priority</label>
+  <input type="radio">High
+  <input type="radio">Average
+  <input type="radio">Low <br><br>
+
+  <label for="d">Description</label>
+  <textarea name="" id="d" cols="30" rows="10"></textarea><br><br>
+
+  <input type="submit" value="submit">
+  
+</form>
+</body>
+</html>

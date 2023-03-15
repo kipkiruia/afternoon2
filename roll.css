@@ -1,0 +1,18 @@
+table{
+    height: 300px;
+    width: 100%;
+    border: 2px solid greenyellow;
+}
+th,td{
+    border: 2px solid greenyellow;
+    text-align: center;
+}
+th{
+    background-color: #50ffb9;
+}
+.two{
+    background-color: coral;
+}
+.u{
+    background-color: coral;
+}

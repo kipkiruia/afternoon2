@@ -1,0 +1,18 @@
+form{
+    background-color: #ff1e7c;
+    margin: 80px ;
+    padding: 80px ;
+}
+input[type=text] input[type=text]{
+    width: 100%;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 15px;
+}
+input [type=subscribe]{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #802600;
+
+}
+

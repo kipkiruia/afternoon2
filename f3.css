@@ -1,0 +1,16 @@
+form{
+
+    padding: 60px;
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    background-color: #50ffb9;
+    margin-right: 300px;
+}
+body{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    text-underline: black;
+}

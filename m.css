@@ -1,0 +1,21 @@
+table{
+    height: 300px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border-bottom: 1px solid black;
+}
+th{
+    background-color: dodgerblue;
+}
+.heading{
+    color: yellow;
+}
+tr:hover{
+    background-color: greenyellow;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+
+}
